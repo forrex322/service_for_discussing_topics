@@ -1,5 +1,5 @@
 """
-WSGI config for service_for_discussing_topics_in_chats project.
+WSGI config for justchat project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'service_for_discussing_topics_in_chats.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'justchat.settings')
 
 application = get_wsgi_application()
